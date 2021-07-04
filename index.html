@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey-Form</title>
+    <link rel="stylesheet" href="Survey-Form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"> -->
+
+    <style>.form {
+        font-family: Verdana;
+        font-size: 14px;
+        /* margin: 25%; */
+        margin-left: 20%;
+        margin-right: 20%;
+        border: 1px solid black;
+        padding: 1%
+    }
+    
+    .sign {
+        color: red
+    }
+    
+    .Name {
+        width: 49%;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between
+    }
+    
+    .user-input-box {
+        border-style: solid;
+        height: 20px;
+        border-color: rgb(201, 197, 197);
+        border-radius: 2px
+    }
+    
+    .a {
+        font-size: 11px;
+    }
+    
+    .experince {
+        margin-top: 30px;
+        font-weight: 1000;
+    }
+    
+    .star {
+        color: orange;
+        margin-top: 5px;
+        font-size: 200%;
+    }
+    
+    .experince-para {
+        margin-top: 10px;
+    }
+    
+    .table {
+        /* line-height: 100%; */
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .color-gray {
+        background-color: #d7d8da;
+        height: 47px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    
+    .highmatch {
+        height: 47px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    
+    .form-check-input {
+        width: 130px;
+    }
+    
+    table,
+    td {
+        padding-right: 10px;
+        align-content: center;
+    }
+    
+    .user-input-box1 {
+        border-style: solid;
+        height: 70px;
+        border-color: rgb(201, 197, 197);
+        border-radius: 2px
+    }
+    
+    .button {
+        margin-top: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .table1,
+    .table2 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .child_table {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .child_table2 {
+        justify-content: center;
+        align-items: center;
+    }</style>
+</head>
+
+<body>
+
+    <form>
+        <div class="form">
+
+            <label for="username"><strong>Name</strong><span class="sign">*</span></label><br>
+            <div class="Name">
+                <div class="Name1">
+                    <input type="text" class="user-input-box" id="username" size=25px>
+                    <div class="a">First</div>
+
+                </div>
+                <div class="Name2">
+                    <input type="text" class="user-input-box" id="username" size=25px><br>
+                    <div class="a">Last</div>
+
+                </div>
+
+            </div><br>
+            <label for="email"><strong>Email</strong><span class="sign">*</span></label><br>
+
+            <input type="text" class="user-input-box" id="email" size=61px>
+
+
+
+
+            <div class="experince">Your Experience<span class="sign">*</span></div>
+            <div class="star">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span></div>
+            <p class="experince-para">Overall, how would you rate your experience</p>
+
+
+            <label type="text"><strong>How satisfied are you with<span class="sign">*</span></strong></label>
+
+            <div class="table1">
+                <div class="child_table">
+
+                    <table class="child_table2" cellspacing=0>
+
+                        <tr>
+                            <td scope=""></td>
+                            <td scope="col">Very Unsatisfied</td>
+                            <td scope="col">Unsatisfied </td>
+                            <td scope="col">Netural</td>
+                            <td scope="col">Satisfied</td>
+                            <td scope="col">Very Satisfied</td>
+
+                        </tr>
+
+                        <tbody>
+                            <tr class="color-gray">
+                                <td scope="row" style="text-align: left;">Purchase</td>
+                                <td><input class="form-check-input" name="btn11" type="radio"></td>
+                                <td><input class="form-check-input" name="btn11" type="radio"></td>
+                                <td><input class="form-check-input" name="btn11" type="radio"></td>
+                                <td><input class="form-check-input" name="btn11" type="radio"></td>
+                                <td><input class="form-check-input" name="btn11" type="radio"></td>
+                            </tr>
+                            <tr class="highmatch">
+                                <td scope="row" style="text-align: left;">Service</td>
+                                <td><input class="form-check-input" name="btn12" type="radio"></td>
+                                <td><input class="form-check-input" name="btn12" type="radio"></td>
+                                <td><input class="form-check-input" name="btn12" type="radio"></td>
+                                <td><input class="form-check-input" name="btn12" type="radio"></td>
+                                <td><input class="form-check-input" name="btn12" type="radio"></td>
+                            </tr>
+                            <tr class="color-gray">
+                                <td scope="row" style="text-align: left;">Company Overall</td>
+                                <td><input class="form-check-input" type="radio"></td>
+                                <td><input class="form-check-input" type="radio"></td>
+                                <td><input class="form-check-input" type="radio"></td>
+                                <td><input class="form-check-input" type="radio"></td>
+                                <td><input class="form-check-input" type="radio"></td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <label type="text"><strong>How likely you are to<span class="sign">*</span></strong></label>
+
+            <div class="table2">
+                <div class="child_table">
+
+
+
+                    <table class="child_table2" cellspacing=0>
+
+
+                        <tr>
+                            <td scope=""></td>
+                            <td scope="col">Very Unlikely</td>
+                            <td scope="col">Unlikely</td>
+                            <td scope="col">Netural</td>
+                            <td scope="col">Likely</td>
+                            <td scope="col">Very Likely</td>
+
+                        </tr>
+
+                        <tbody>
+                            <tr class="color-gray">
+                                <td scope="row" style="text-align: left;">Bus from us again</td>
+                                <td><input class="form-check-input" name="btn1" type="radio"></td>
+                                <td><input class="form-check-input" name="btn1" type="radio"></td>
+                                <td><input class="form-check-input" name="btn1" type="radio"></td>
+                                <td><input class="form-check-input" name="btn1" type="radio"></td>
+                                <td><input class="form-check-input" name="btn1" type="radio"></td>
+                            </tr>
+                            <tr class="highmatch">
+                                <td scope="row" style="text-align: left;">Recommented our product to others</td>
+                                <td><input class="form-check-input" name="btn2" type="radio"></td>
+                                <td><input class="form-check-input" name="btn2" type="radio"></td>
+                                <td><input class="form-check-input" name="btn2" type="radio"></td>
+                                <td><input class="form-check-input" name="btn2" type="radio"></td>
+                                <td><input class="form-check-input" name="btn2" type="radio"></td>
+                            </tr>
+                            <tr class="color-gray">
+                                <td scope="row" style="text-align: left;">Recommented our company to others</td>
+                                <td><input class="form-check-input" name="btn3" type="radio"></td>
+                                <td><input class="form-check-input" name="btn3" type="radio"></td>
+                                <td><input class="form-check-input" name="btn3" type="radio"></td>
+                                <td><input class="form-check-input" name="btn3" type="radio"></td>
+                                <td><input class="form-check-input" name="btn3" type="radio"></td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="additional"><strong>Additional comments or suggesion</strong></div>
+            <textarea class="user-input-box1" cols=117% rows="5"></textarea>
+
+
+            <input type="submit" class="button" />
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+        </div>
+    </form>
+
+
+
+
+</body>
+
+</html>
