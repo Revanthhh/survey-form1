@@ -1,0 +1,112 @@
+.form {
+    font-family: Verdana;
+    font-size: 14px;
+    /* margin: 25%; */
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid black;
+    padding: 1%
+}
+
+.sign {
+    color: red
+}
+
+.Name {
+    width: 49%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between
+}
+
+.user-input-box {
+    border-style: solid;
+    height: 20px;
+    border-color: rgb(201, 197, 197);
+    border-radius: 2px
+}
+
+.a {
+    font-size: 11px;
+}
+
+.experince {
+    margin-top: 30px;
+    font-weight: 1000;
+}
+
+.star {
+    color: orange;
+    margin-top: 5px;
+    font-size: 200%;
+}
+
+.experince-para {
+    margin-top: 10px;
+}
+
+.table {
+    /* line-height: 100%; */
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.color-gray {
+    background-color: #d7d8da;
+    height: 47px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.highmatch {
+    height: 47px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.form-check-input {
+    width: 130px;
+}
+
+table,
+td {
+    padding-right: 10px;
+    align-content: center;
+}
+
+.user-input-box1 {
+    border-style: solid;
+    height: 70px;
+    border-color: rgb(201, 197, 197);
+    border-radius: 2px
+}
+
+.button {
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.table1,
+.table2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child_table {
+    justify-content: center;
+    align-items: center;
+}
+
+.child_table2 {
+    justify-content: center;
+    align-items: center;
+}
